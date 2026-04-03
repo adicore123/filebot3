@@ -30,7 +30,7 @@ export default async function handler(req, res) {
 
   try {
     const hfRes = await fetch(
-      'https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3',
+      'https://router.huggingface.co/hf-inference/models/mistralai/Mistral-7B-Instruct-v0.3',
       {
         method: 'POST',
         headers: {
